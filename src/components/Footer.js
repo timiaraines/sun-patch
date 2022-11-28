@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/logo.png";
 
 
 export const Footer = () => {
@@ -11,6 +11,7 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
+            <p>Made by Timia Raines and Aman Singh</p>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
